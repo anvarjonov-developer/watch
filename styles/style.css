@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  
+}
+
+
+
+/* bosh qismi */
+
+.ul{
+display: flex;
+margin-top: 15px;
+gap: 45px;
+}
+.header-title{
+    display: flex;
+    justify-content: space-between;
+}
+.header-ul{
+    display:flex ;
+    gap: 30px;
+    list-style: none;
+    
+}
+.header-section{
+    margin-top: 30px;
+    width: 900px;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+.header-a{
+    text-decoration: none;
+    color: rgb(156, 154, 154);
+}
+.header-ul-li{
+    color: gray;
+}
+input{
+    border: none;
+    font-size: 16px;
+    outline: none;
+    border-bottom: 1px solid gray;
+    height: 30px;
+    padding-bottom: 10px;
+
+    }
+.header-a:hover{
+    color: black;
+    border-bottom: 2px solid gray;
+    padding-bottom: 10px;
+}
+/* bosh qismi */
+
+
+
+
+/* 1-tana qismi */
+.container{
+    width: 900px;
+    margin: 0px auto;
+}
+.hero{
+    padding-top: 100px;
+}
+.hero-text{
+    width: 400px;
+    border-left: 3px solid gray;
+    padding-left: 40px;
+    color: gray;
+    margin-top: 60px;
+}
+main{
+    margin-top: 35px;
+    background-image: url(../img/watches.jpg);
+    background-size: contain;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position-x: 1000px;
+    padding-top: 40px;
+}
+.hero-title{
+    font-size: 45px;
+}
+.first{
+    height: 45px;
+    margin-top: 40px;
+    width: 200px;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: #EA625C;
+    border: none;
+    color: white;
+}
+.first:hover{
+    background-color: #d33c34;
+}
+/* 1-tana qismi */
+
+
+
+
+/* 2-tana qismi */
+.second-title{
+    width: 280px;
+    margin-top: 30px;
+
+}
+h3{
+    font-size: 16px;
+}
+.dote{
+    width: 4px;
+    height: 4px;
+    background-color: gray;
+    box-shadow: 14px 0px gray, 28px 0px gray;
+    margin-top: 20px;
+
+}
+.second-text{
+    margin-top: 30px;
+}
+.learn{
+    text-decoration: none;
+    color: #EA625C;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+
+}
+.learn::before{
+    content: '';
+    width: 12px;
+    height: 1px;
+    background-color: #EA625C;
+    display: inline-block;
+    transition: 1s;
+    margin-bottom: 5px;
+}
+.learn:hover::before{
+    width: 17px;
+}
+/* 2-tana qismi */
+
+
+
+
+/* 3-tana qismi */
+.third{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.third-title{
+    width: 400px;
+    font-size:20px ;
+    margin-top: 120px;
+
+    
+}
+.watch{
+    width:400px;
+    height: 600px;
+}
+.third-text{
+    border-left: 3px solid gray;
+    padding-left:30px ;
+    margin-top: 60px;
+    color: gray;
+    font-size: 18px;
+    height: 100px;
+    width: 400px;
+    padding-top: 10px;
+}
+.third-button{
+    height: 45px;
+    width: 110px;
+    background-color: #EA625C;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 40px;
+}
+.third-button:hover{
+    background-color: #d33c34;
+}
+
+
+/* 3-tana qismi  */
+
+
+
+
+/* tugash qismi */
+.end{
+    background-image: url(../img/runners.jpg);
+    margin-top: 50px;
+    color: white;
+    height: 700px;
+    background-size: cover;
+    padding-top: 180px;
+    
+
+}
+.end-title{
+    font-size: 40px;
+}
+.end-n{
+    width: 400px;
+    margin-left: 770px;
+    
+
+}
+.end-text{
+    border-left: 3px solid white;
+    
+    margin-top: 60px;
+    height: 110px;
+    padding:7px 30px ;
+}
+.end-button{
+    margin-top: 35px;
+    height: 50px;
+    width: 190px;
+    background-color: #EA625C;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+.end-button:hover{
+    background-color: #d33c34;
+}
+
+/* tugash qismi */
+
